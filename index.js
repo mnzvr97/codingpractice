@@ -11,3 +11,16 @@
 
 // console.log(count)
 
+// initialize as 0
+// listen for clicks on increment buton
+// increment the count varaible when the button is clicked
+// change the count-el in the html
+
+let countEl = document.getElementById("count-el")
+
+let count = 0
+
+function increment() {
+    count = count + 1
+    countEl.innerText = count
+}
